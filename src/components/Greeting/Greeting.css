@@ -1,18 +1,23 @@
+.greeting-box, .greeting-navbox, .back-button {
+    font-family: "Jersey 15";
+}
 .back-button {
     cursor: pointer;
     position: absolute;
     top: 0;
     left: 0;
     padding: 25px;
+    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border: none;
     border-bottom-right-radius: 5px;
+    box-shadow: black 5px 5px 5px 5px;
 }
 .back-button:hover {
     background-color: black;
 }
-.greeting-box {
+.greeting-box, .greeting-navbox {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -20,9 +25,33 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 30px;
     border-radius: 20px;
     box-shadow: black 10px 15px 20px 10px;
+}
+.greeting-box {
+    margin-bottom: 50px;
+    font-size: 5vw;
+}
+.greeting-navbox {
+    font-size: 2vw;
+}
+.greeting-h2 {
+    text-decoration: underline dotted 3px;
+}
+.greeting-ul {
+    margin: 20px;
+}
+.greeting-list {
+    list-style: circle;
+}
+.greeting-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.greeting-link:hover {
+    font-style: italic;
+    text-decoration: underline;
 }
 .greeting-box h1 {
     margin: 10px;

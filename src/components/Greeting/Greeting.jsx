@@ -26,6 +26,7 @@ const Greeting = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        flexDirection: 'column'        
       };
     
       const afternoonStyle = {
@@ -34,6 +35,7 @@ const Greeting = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        flexDirection: 'column'        
       };
     
       const eveningStyle = {
@@ -42,17 +44,25 @@ const Greeting = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        flexDirection: 'column'        
       };
 
     const { greeting, style, icon } = getTime();
 
     return (
         <section style={style}>
+            <button className='back-button' onClick={() => navigate('/')}>Go Back</button>
             <article className='greeting-box'>
-                <button className='back-button' onClick={() => navigate('/')}>Go Back</button>
                 <h1>{`${greeting}, ${name}!`}</h1>
                 <span style={{ fontSize: '5rem' }}>{icon}</span>
             </article>
+            <nav className='greeting-navbox'>
+                <h2 className='greeting-h2'>Please choose your next destination</h2>
+                <ul className='greeting-ul'>
+                    <li className='greeting-list'><a className='greeting-link' href='/timer'>Timer</a></li>                   
+                    <li className='greeting-list'><a className='greeting-link' href='/color'>Color</a></li>                   
+                </ul>
+            </nav>
         </section>
     );
 };

@@ -1,0 +1,57 @@
+.timer-back-button {
+    font-family: Macondo;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-bottom-right-radius: 5px;
+}
+.timer-back-button:hover {
+    background-color: white;
+    color: black;
+}
+.timer-main {
+    background-image: linear-gradient(#000000, #24246d, #000000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timer {
+    cursor: default;
+    margin: 50px;
+    font-size: 8vw;
+}
+.timer, .start-button, .pause-button, .reset-button {
+    padding: 20px;
+    font-family: Macondo;
+    background-color: #ffffff;
+    border: #000000 double 1vw;
+    border-radius: 5px;
+    animation: rainbow 10s linear infinite;
+}
+.start-button, .pause-button, .reset-button {
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 4vw;
+    transition: 1s;
+}
+.start-button:hover, .pause-button:hover, .reset-button:hover {
+    font-size: 5vw;
+}
+@keyframes rainbow {
+    0% { box-shadow: red 8px 6px 5px; }
+    14% { box-shadow: orange 8px 6px 5px; }
+    28% { box-shadow: yellow 8px 6px 5px; }
+    42% { box-shadow: green 8px 6px 5px; }
+    57% { box-shadow: blue 8px 6px 5px; }
+    71% { box-shadow: indigo 8px 6px 5px; }
+    85% { box-shadow: violet 8px 6px 5px; }
+    100% { box-shadow: red 8px 6px 5px; }
+}

@@ -14,11 +14,11 @@ const NameInput = () => {
     };
 
     return (
-        <main>
-        <h1>Welcome, please enter your name:</h1>
+        <main className='nameinput-main'>
+        <h1 className='name-greeting'>Welcome, please enter your name:</h1>
         <form onSubmit={handleSubmit}>
-            <input type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='Your Name'/>
-            <button type='submit'>Submit</button>
+            <input className='name-input' type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='Your Name'/>
+            <button className='name-button' type='submit'>Submit</button>
         </form>
         </main>
     );

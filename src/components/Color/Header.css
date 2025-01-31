@@ -1,0 +1,23 @@
+.color-h1 {
+    margin: 1rem;
+    padding: 1.5rem;
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    border: black double 5px;
+    border-radius: 4px;
+}
+.color-button {
+    cursor: pointer;
+    font-family: "Jersey 15";
+    padding: 1rem 1.5rem;
+    font-size: 1vw;
+    background-color: white;
+    border: black double 5px;
+    border-radius: 4px;
+}
+.color-button:hover {
+    background-color: #0d6621;
+    color: white;
+    border-color: white;
+}
