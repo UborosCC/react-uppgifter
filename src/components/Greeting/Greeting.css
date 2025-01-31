@@ -32,23 +32,24 @@
     font-size: 5vw;
 }
 .greeting-navbox {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .greeting-h2 {
     text-decoration: underline dotted 3px;
 }
-.greeting-ul {
-    margin: 20px;
-}
 .greeting-list {
     list-style: circle;
+    margin: 20px;
+    padding: 10px 15px;
+    border: black double 5px;
+    background-color: white;
 }
 .greeting-link {
     cursor: pointer;
-    color: white;
+    color: black;
     background: none;
     vertical-align: middle;
-    font-size: 2vw;
+    font-size: 4vw;
     border: none;
     text-decoration: none;
 }

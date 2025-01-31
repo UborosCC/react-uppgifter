@@ -1,13 +1,12 @@
 import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import './Greeting.css';
 
 
 const Greeting = () => {
-    const location = useLocation();
+    const name = useSelector((state) => state.user.name) || 'Guest';
     const navigate = useNavigate();
-    const queryParams = new URLSearchParams(location.search);
-    const name = queryParams.get('name') || 'Guest';
 
     const getTime = () => {
         const hour = new Date().getHours();
