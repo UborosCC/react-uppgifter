@@ -1,4 +1,4 @@
-.greeting-box, .greeting-navbox, .back-button {
+.greeting-box, .greeting-navbox, .back-button, .greeting-link {
     font-family: "Jersey 15";
 }
 .back-button {
@@ -46,8 +46,12 @@
 }
 .greeting-link {
     cursor: pointer;
-    text-decoration: none;
     color: white;
+    background: none;
+    vertical-align: middle;
+    font-size: 2vw;
+    border: none;
+    text-decoration: none;
 }
 .greeting-link:hover {
     font-style: italic;

@@ -59,8 +59,8 @@ const Greeting = () => {
             <nav className='greeting-navbox'>
                 <h2 className='greeting-h2'>Please choose your next destination</h2>
                 <ul className='greeting-ul'>
-                    <li className='greeting-list'><a className='greeting-link' href='/timer'>Timer</a></li>                   
-                    <li className='greeting-list'><a className='greeting-link' href='/color'>Color</a></li>                   
+                    <li className='greeting-list'><button className='greeting-link' onClick={() => navigate('/timer')}>Timer</button></li>                   
+                    <li className='greeting-list'><button className='greeting-link' onClick={() => navigate('/color')}>Color</button></li>                   
                 </ul>
             </nav>
         </section>
