@@ -2,7 +2,7 @@
   "name": "alex-hackathon-uppgift",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://UborosCC.github.io/react-uppgifter",
+  "homepage": "https://uboroscc.github.io/react-uppgifter",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
