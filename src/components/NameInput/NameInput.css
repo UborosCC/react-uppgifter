@@ -1,6 +1,6 @@
 .nameinput-main {
     height: 100vh;
-    font-family: "Jersey 15";
+    font-family: 'Jersey 15';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 .name-input, .name-button{
-    font-family: "Jersey 15";
+    font-family: 'Jersey 15';
     padding: 10px;
     font-size: 20px;
 }

@@ -1,12 +1,12 @@
 .color-main {
-    font-family: "Jersey 15";
+    font-family: 'Jersey 15';
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-image: linear-gradient(red, blue, green);
+    background-image: linear-gradient(#ff0000, #0000ff, #008000);
 }
 .color-grid {
     display: flex;

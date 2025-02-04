@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './Color.css';
 import Card from './Card';
@@ -11,7 +11,7 @@ const Color = () => {
   const [flippedCards, setFlippedCards] = useState([]);
   const [matchedCards, setMatchedCards] = useState([]);
 
-  const colors = ["#fcba03", "#fc0303", "#35fc03", "#03adfc", "#5603fc", "#fc03d2", "#1c592a", "#ff6f00"];
+  const colors = ['#fcba03', '#fc0303', '#35fc03', '#03adfc', '#5603fc', '#fc03d2', '#1c592a', '#ff6f00'];
 
   useEffect(() => {
     resetGame();
@@ -45,10 +45,10 @@ const Color = () => {
   };
 
   return (
-    <main className="color-main">
+    <main className='color-main'>
       <button className='back-button' onClick={() => navigate('/greeting')}>Go Back</button>
       <Header onReset={resetGame} />
-      <section className="color-grid">
+      <section className='color-grid'>
         {cards.map((card, index) => (
           <Card
             key={card.id}

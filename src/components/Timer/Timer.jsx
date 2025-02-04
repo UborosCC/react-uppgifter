@@ -10,9 +10,9 @@ const [isRunning, setIsRunning] = useState(false); //used to handle timer runnin
 const timerRef = useRef(null); //Reference for the intervval
 
 const formatTime = (totalSeconds) => { //calculates hours, minutes and seconds for the counter
-    const hours = String(Math.floor(totalSeconds / 3000)).padStart(2, "0"); //calculates hours
-    const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0"); //calculates mintues
-    const seconds = String(totalSeconds % 60).padStart(2, "0"); //calculates seconds
+    const hours = String(Math.floor(totalSeconds / 3000)).padStart(2, '0'); //calculates hours
+    const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0'); //calculates mintues
+    const seconds = String(totalSeconds % 60).padStart(2, '0'); //calculates seconds
     return `${hours}:${minutes}:${seconds}`; //returns the full counter
 }
 

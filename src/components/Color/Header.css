@@ -1,25 +1,25 @@
 .color-h1 {
     margin: 15px 0;
     padding: 1.5rem;
-    color: black;
+    color: #000000;
     font-size: 45px;
-    background-color: white;
-    border: black double 5px;
+    background-color: #ffffff;
+    border: #000000 double 5px;
     border-radius: 4px;
 }
 .color-button {
     cursor: pointer;
-    font-family: "Jersey 15";
+    font-family: 'Jersey 15';
     padding: 1rem 1.5rem;
     font-size: 10vw;
-    background-color: white;
-    border: black double 5px;
+    background-color: #ffffff;
+    border: #000000 double 5px;
     border-radius: 4px;
 }
 .color-button:hover {
     background-color: #0d6621;
-    color: white;
-    border-color: white;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 @media screen and (min-width: 1900px) {
     .color-h1 {

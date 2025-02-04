@@ -1,5 +1,5 @@
 .greeting-box, .greeting-navbox, .back-button, .greeting-link {
-    font-family: "Jersey 15";
+    font-family: 'Jersey 15';
 }
 .back-button {
     cursor: pointer;
@@ -9,12 +9,12 @@
     padding: 25px;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: #ffffff;
     border: none;
     border-bottom-right-radius: 5px;
 }
 .back-button:hover {
-    background-color: black;
+    background-color: #000000;
 }
 .greeting-box, .greeting-navbox {
     padding: 30px;
@@ -23,9 +23,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #ffffff;
     border-radius: 20px;
-    box-shadow: black 10px 15px 20px 10px;
+    box-shadow: #000000 10px 15px 20px 10px;
 }
 .greeting-box {
     margin-bottom: 50px;
@@ -41,12 +41,12 @@
     list-style: circle;
     margin: 20px;
     padding: 10px 15px;
-    border: black double 5px;
-    background-color: white;
+    border: #000000 double 5px;
+    background-color: #ffffff;
 }
 .greeting-link {
     cursor: pointer;
-    color: black;
+    color: #000000;
     background: none;
     vertical-align: middle;
     font-size: 4vw;
